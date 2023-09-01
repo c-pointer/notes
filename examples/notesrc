@@ -1,0 +1,38 @@
+# ~/.notesrc example
+
+# where the files are located (root directory)
+notebook=~/Nextcloud/Notes
+
+# exclude list
+exclude .git .* trash *.sqlite
+
+# rules
+rule view *.pdf mupdf %f
+rule view *.md mdcat %f | less
+rule edit *.txt $EDITOR %f
+rule edit *.md  vim %f
+
+# user defined menu items
+umenu xdg-open; xdg-open %f
+umenu copy to clipboard; xclip -i %f
+
+# Force nextcloud to synchronize on startup / exit
+#onstart=isonline -q master.nic-net.lan && nextcloudcmd -s -u $USER -p password ~/Nextcloud/ https://master.nic-net.lan/nextcloud
+#onexit=isonline -q master.nic-net.lan && nextcloudcmd -s -u $USER -p password ~/Nextcloud/ https://master.nic-net.lan/nextcloud
+
+# UI
+pvhead=off
+
+# interface
+color normal 0x17
+color status 0x70
+color key 0x74
+color select 0x70
+
+# markdown
+color text 0x17
+color code 0x13
+color bold 0x1f
+color hide 0x18
+
+
