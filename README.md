@@ -1,5 +1,5 @@
 # notes
-Notes manager.
+Notes application for use in text mode.
 
 Concept: I want to keep my notes in plain text files, to search them like `man`
 and to share them with my laptop and phone. I also want to use outputs of programs,
