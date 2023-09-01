@@ -46,8 +46,8 @@ echo 'vi "`locate SpeedControlConfig.json`"' | notes -a Games/ONI -
 
 ## Screenshots
 
-![NCurses interface](https://codeberg.org/nereusx/notes/src/branch/main/screenshots/notes-112x30.png)
+![NCurses interface](https://codeberg.org/nereusx/notes/raw/branch/main/screenshots/notes-112x30.png)
 
-![CLI](https://codeberg.org/nereusx/notes/src/branch/main/screenshots/notes-cli.png)
+![CLI](https://codeberg.org/nereusx/notes/raw/main/screenshots/notes-cli.png)
 
 [The fonts](https://codeberg.org/nereusx/xsg-fonts)
