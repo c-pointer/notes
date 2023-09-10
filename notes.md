@@ -1,4 +1,4 @@
-# notes 1 2022-10-10 "NDC-Tools"
+# notes 1 2023-09-10 "1.6" "User Commands"
 
 ## NAME
 notes - manages note files.

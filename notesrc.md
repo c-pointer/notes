@@ -1,4 +1,4 @@
-# notesrc 5 2021-01-22 "NDC-Tools"
+# notesrc 5 2023-09-10 "1.6" "User Commands"
 ## NAME
 notesrc - NDC's notes configuration file.
 

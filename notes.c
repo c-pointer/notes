@@ -1753,7 +1753,7 @@ void cleanup() {
 #define APP_DESCR \
 "notes - notes manager"
 
-#define APP_VER "1.5"
+#define APP_VER "1.6"
 
 static const char *usage = "\
 "APP_DESCR"\n\
